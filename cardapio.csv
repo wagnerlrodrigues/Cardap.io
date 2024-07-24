@@ -1,0 +1,10 @@
+Nome,Descrição,Preço,Imagem,Categoria,Promoção
+Café,"Expresso,coado ou capuccino",5.00,\imagens\drink.jpg,Bebidas,Sim
+Suco Natural,"Laranja, limão ou abacaxi",5.01,\imagens\drink.jpg,Bebidas,Não
+Refrigerante,"Cola, guaraná ou soda",6.00,\imagens\drink.jpg,Bebidas,Não
+Sanduíche Natural,"Frango, atum ou vegetariano",12.00,\imagens\drink.jpg,Comidas,Não
+Salgados,"Coxinha, esfiha ou pastel",4.00,\imagens\drink.jpg,Comidas,Sim
+Salada Verde,Caesar ou grega,15.00,\imagens\drink.jpg,Comidas,Não
+Sobremesas,"Bolo, pudim ou sorvete",10.00,\imagens\drink.jpg,Outros,Não
+Aperitivos,"Batata frita, anéis de cebola ou nachos",18.00,\imagens\drink.jpg,Outros,Não
+Combo do Dia,Prato principal + bebida + sobremesa,25.00,\imagens\drink.jpg,Outros,Sim
