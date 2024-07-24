@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #858585;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .menu-section {
+            margin-bottom: 40px;
+        }
+        .menu-item {
+            display: grid;
+            grid-template-columns: 100px 1fr 100px;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #ccc;
+        }
+        .menu-item img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h4 {
+            margin: 0;
+            color: #333;
+        }
+        .menu-item p {
+            margin: 0;
+            color: #666;
+        }
+        .menu-item span {
+            color: #333;
+            font-weight: bold;
+        }
+        .promotion {
+            background-color: #e74c3c;
+            color: white;
+            font-size: 12px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cardápio Online</h1>
+    </header>
+    <div class="container">
+        <section class="menu-section">
+            <h2>Bebidas</h2>
+            <div class="menu-item">
+                <img src="\imagens\bebida.png" alt="Café">
+                <div>
+                    <h4>Café</h4>
+                    <p>Expresso, coado ou capuccino.</p>
+                    <span>R$ 5,00</span>
+                    <div class="promotion">Promoção</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="\imagens\drink.png" alt="Suco Natural">
+                <div>
+                    <h4>Suco Natural</h4>
+                    <p>Laranja, limão ou abacaxi.</p>
+                    <span>R$ 8,00</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="\imagens\bebida.png" alt="Refrigerante">
+                <div>
+                    <h4>Refrigerante</h4>
+                    <p>Cola, guaraná ou soda.</p>
+                    <span>R$ 6,00</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Comidas</h2>
+            <div class="menu-item">
+                <img src="link-para-imagem-sanduiche.jpg" alt="Sanduíche Natural">
+                <div>
+                    <h4>Sanduíche Natural</h4>
+                    <p>Frango, atum ou vegetariano.</p>
+                    <span>R$ 12,00</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="link-para-imagem-salgado.jpg" alt="Salgados">
+                <div>
+                    <h4>Salgados</h4>
+                    <p>Coxinha, esfiha ou pastel.</p>
+                    <span>R$ 4,00</span>
+                    <div class="promotion">Promoção</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="link-para-imagem-salada.jpg" alt="Salada">
+                <div>
+                    <h4>Salada</h4>
+                    <p>Verde, Caesar ou grega.</p>
+                    <span>R$ 15,00</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Outros</h2>
+            <div class="menu-item">
+                <img src="link-para-imagem-sobremesa.jpg" alt="Sobremesas">
+                <div>
+                    <h4>Sobremesas</h4>
+                    <p>Bolo, pudim ou sorvete.</p>
+                    <span>R$ 10,00</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="link-para-imagem-aperitivo.jpg" alt="Aperitivos">
+                <div>
+                    <h4>Aperitivos</h4>
+                    <p>Batata frita, anéis de cebola ou nachos.</p>
+                    <span>R$ 18,00</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="link-para-imagem-combo.jpg" alt="Combo do Dia">
+                <div>
+                    <h4>Combo do Dia</h4>
+                    <p>Prato principal + bebida + sobremesa.</p>
+                    <span>R$ 25,00</span>
+                    <div class="promotion">Promoção</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
